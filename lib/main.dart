@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_one_1/pages/home_widgets/cart_page.dart';
+import 'package:flutter_one_1/pages/cart_page.dart';
 import 'package:flutter_one_1/pages/login_page.dart';
 import 'package:flutter_one_1/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
