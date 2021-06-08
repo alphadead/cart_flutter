@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_one_1/pages/cart_page.dart';
 import 'package:flutter_one_1/pages/login_page.dart';
+import 'package:flutter_one_1/pages/signup_page.dart';
 import 'package:flutter_one_1/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'core/store.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute: (context) => LoginPage(),
         MyRoutes.cartRoute: (context) => CartPage(),
+        MyRoutes.signUp: (context) => SignupPage(),
       },
     );
   }

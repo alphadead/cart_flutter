@@ -123,6 +123,19 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, MyRoutes.signUp);
+                },
+                style: ButtonStyle(
+                  foregroundColor:
+                      MaterialStateProperty.all(context.accentColor),
+                ),
+                child: "Sign Up".text.xl2.make(),
               )
             ],
           ),
